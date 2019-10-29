@@ -1,0 +1,165 @@
+/*-------------------------
+	Simple reset
+--------------------------*/
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+
+/*-------------------------
+	General Styles
+--------------------------*/
+
+
+body{
+	font:15px/1.3 'Open Sans', Arial, Helvetica, sans-serif;
+	padding-bottom: 100px;
+}
+
+a, a:visited {
+	outline:none;
+	color:#389dc1;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+section, footer, header, aside{
+	display: block;
+}
+
+
+/*-------------------------
+	Header & Titles
+--------------------------*/
+
+
+header{
+	padding:20px;
+	text-align: center;
+}
+
+header h1{
+	padding-top:50px;
+	font-size:52px;
+	line-height:80px;
+	color:#45bad3;
+}
+
+header h1 span.green{
+	color:#61a64f;
+}
+
+header h1 span.red{
+	color:#eb263a;
+}
+
+header h2{
+	font-size:16px;
+	color:#819fa8;
+}
+
+h3{
+	padding-top: 80px;
+	text-align: center;
+}
+
+h1,h2,h3{
+	font-weight:300;
+}
+
+
+/*-------------------------
+	The Tabs
+--------------------------*/
+
+
+nav{
+	display:block;
+	margin-top:20px;
+	text-align:center;
+}
+
+nav a{
+	display:inline-block;
+	border-radius:3px;
+	padding: 5px 15px;
+	color:#e1ba4c !important;
+	font-weight:bold;
+	text-decoration:none !important;
+	text-transform: uppercase;
+}
+
+nav a.active{
+	background-color:#f2f2f2;
+	cursor:default !important;
+}
+
+
+/*-------------------------
+	Photo and Buttons
+--------------------------*/
+
+
+body > img{
+	display:block;
+	margin:60px auto;
+	border-radius: 3px;
+	max-height: 400px;
+	width: auto;
+}
+
+.button-holder{
+	margin:0 auto;
+	text-align:center;
+}
+
+.button-holder form{
+	display:inline-block;
+}
+
+.button-holder form input{
+	cursor:pointer;
+	border:0;
+	padding: 16px 20px 16px 45px;
+	color:#fff;
+	font:inherit;
+	border-radius:3px;
+	margin:0 5px;
+	font-size:24px;
+	font-weight: bold;
+	outline:none;
+}
+
+.button-holder form input:active{
+	position:relative;
+	bottom:-1px;
+}
+
+.button-holder form input:hover{
+	opacity:0.9;
+}
+
+
+/* The Good button */
+
+.button-holder form:first-child input{
+    	background: url('../img/sprite.svg') #aadb9c 17px -86px no-repeat;
+}
+
+/* The Bad button */
+
+.button-holder form:nth-child(2) input{
+	background: url('../img/sprite.svg') #f3818d 17px 18px no-repeat;
+}
+
+/* The Not sure button */
+
+.button-holder form:nth-child(3) input{
+        background: url('../img/question-mark-2-24.ico') 21px 20px  #91908e no-repeat;
+}
+

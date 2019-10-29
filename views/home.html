@@ -1,0 +1,28 @@
+<nav>
+    <a class="active" href="./">Tag</a>
+</nav>
+
+{{#if photo}}
+
+    <img src="photos/{{photo.name}}" />
+
+    <div class="button-holder">
+        <form action="./good" method="post">
+            <input type="hidden" name="photo" value="{{photo.name}}" />
+            <input type="submit" value=''/>
+        </form>
+        <form action="./bad" method="post">
+            <input type="hidden" name="photo" value="{{photo.name}}" />
+            <input type="submit" value=''/>
+        </form>
+        <form action="./notSure" method="post"> 
+            <input type="hidden" name="photo" value="{{photo.name}}" /> 
+            <input type="submit" value=''/> 
+        </form>
+    </div>
+
+{{else}}
+
+    <h3>All done!</h3>
+
+{{/if}}

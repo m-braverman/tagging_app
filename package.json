@@ -1,0 +1,21 @@
+{
+  "name": "tag-app",
+  "version": "1.0.0",
+  "description": "A tagging webapp for images and text.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express3-handlebars": "^0.5.2",
+    "handlebars": "^4.1.2",
+    "nedb": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tagging"
+  ],
+  "author": "Maria Braverman",
+  "license": "ISC"
+}
