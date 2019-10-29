@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "express": "^4.17.1",
-    "express3-handlebars": "^0.5.2",
+    "express-handlebars": "^3.1.0",
     "handlebars": "^4.5.1",
     "minimatch": "^3.0.4",
     "nedb": "^1.8.0",
