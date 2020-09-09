@@ -6,7 +6,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
-    "handlebars": "^4.5.1",
+    "handlebars": "^4.5.3",
     "minimatch": "^3.0.4",
     "nedb": "^1.8.0",
     "semver": "^6.3.0"
